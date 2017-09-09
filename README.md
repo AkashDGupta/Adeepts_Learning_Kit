@@ -1,6 +1,6 @@
 # Adeepts_Learning_Kit
-This repository is my findings of improvements of Adeepts Learning Kit's Python Program for RFID Scanner.  
-Below Steps are required to be performed in order to run the RFID Scanner programme.    
+This repository is my findings to improve Adeepts Learning Kit's Python Program for RFID Scanner.  
+As per my experience below steps are required to be performed in order to run the RFID Scanner programme.    
 
 1) Enabling the SPI : 
 
