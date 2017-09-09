@@ -20,5 +20,19 @@ git  clone https://github.com/lthiery/SPI-Py
 cd SPI-Py
 sudo python setup.py install
 
+3) Enable Device Tree
+
+The device tree is a data structure for describing hardware, which originated from Open Firmware. The data structure can hold any kind of data as internally it is a tree of named nodes and properties.
+Device Tree can be enabled following below steps:
+
+sudo nano/boot/config.txt
+
+Now go to end of the file and add additional below line:
+
+device_tree=on
+
+4) 
+
+
 
 
