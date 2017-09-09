@@ -33,10 +33,14 @@ device_tree=on
 
 4) Cablings and Connections:
  
- RF Scanner could be connected to the 
+ RF Scanner could be connected to the Rpi using the cablings as shown in RFID.docx.
+
 5) Initialising the RFID Scanner
 
-RFID Scanner could be stat
+RFID Scanner could be started by executing below command.
 
+$ sudo python Read.py
+
+Now RFID scanner is activated and as soon as a RFID reader card/ring is brought in it's proximity the ID number will be sent to the Raspberry Pi terminal.
 
 
