@@ -2,7 +2,7 @@
 This repository is my findings of improvements of Adeepts Learning Kit's Python Program for RFID Scanner.  
 Below Steps are required to be performed in order to run the RFID Scanner programme.    
 
-1)Enabling the SPI : 
+1) Enabling the SPI : 
 
 SPI is serial peripheral interface bus. It can be configured from RPidesktop : 
 Menu->Preferences->Raspberry Pi Configuration->Interfaces->SPI->Enable 
@@ -10,7 +10,7 @@ Now reboot the Rpi as suggested in pop-up window.
 
 To veryfy the SPI is enabled you can enter command ls /dev/spidev0.* which should return output as /dev/spidev0.0  /dev/spidev0.1
 
-2)Installing Python-dev and SPI-py :
+2) Installing Python-dev and SPI-py :
 
 Enter command sudo apt-get install python-dev
 
@@ -31,8 +31,12 @@ Now go to end of the file and add additional below line:
 
 device_tree=on
 
-4) 
+4) Cablings and Connections:
+ 
+ RF Scanner could be connected to the 
+5) Initialising the RFID Scanner
 
+RFID Scanner could be stat
 
 
 
